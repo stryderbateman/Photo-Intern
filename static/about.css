@@ -35,3 +35,30 @@ html {
     padding: 20px;
     margin-top: 55%;
   }
+  
+.grid{
+  display: grid;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+
+}
+.two {
+  width: 200px;
+  height: 200px;
+}
+.three {
+  width: 200px;
+  height: 200px;
+}
+.four {
+  width: 200px;
+  height: 200px;
+}
+
+.five {
+  width: 200px;
+  height: 200px;
+}

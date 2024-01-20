@@ -28,7 +28,7 @@ html {
     color: white;
   }
 
-img {
+.logo {
   width: 90%;
   height: 600px;
   padding-top: 15px;
@@ -51,17 +51,74 @@ img {
     border-right: #DFB79E solid 5px;
     border-bottom: #DFB79E solid 5px;
   } */
-
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(../fonts/Montserrat-Regular.ttf);
+  }
 .container {
   position: absolute;
-  top: 100%;
-  width: 50%;
+  font-family: Montserrat-Regular;
+  font-weight: lighter;
+  top: 115%;
+  width: 70%;
+  left: 15%;
   padding: 20px;
   box-sizing: border-box;
   background-color: #E6D4C9;
-  color: #DFB79E;
+  color: #CF8562;
   text-align: center;
   border: #CF8562 solid 10px;
+}
+
+.box1 {
+  position: relative;
+  padding: 20px;
+  width: 30%;
+  height: 300px;
+  top: 200px;
+  left: 68%;
+  box-sizing: border-box;
+  background-color: #E6D4C9;
+  color: #CF8562;
+  text-align: center;
+  border: #CF8562 solid 10px;
+}
+
+.box2 {
+  position: relative;
+  padding: 20px;
+  top: 501px;
+  left: 35%;
+  width: 30%;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: #E6D4C9;
+  color: #CF8562;
+  text-align: center;
+  border: #CF8562 solid 10px;
+}
+
+.box3 {
+  position: relative;
+  top: 800px;
+  left: 2%;
+  padding: 20px;
+  width: 30%;
+  height: 300px;
+  box-sizing: border-box;
+  background-color: #E6D4C9;
+  color: #CF8562;
+  text-align: center;
+  border: #CF8562 solid 10px;
+}
+
+.img1 {
+  width: 300px;
+  height: 250px;
+}
+.img2 {
+  width: 300px;
+  height: 250px;
 }
 
 .footer {
@@ -69,5 +126,5 @@ img {
   color: #DFB79E;
   text-align: center;
   padding: 20px;
-  margin-top: 55%;
+  margin-top: 20%;
 }
