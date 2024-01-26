@@ -57,7 +57,7 @@ body {
 .container {
   position: absolute;
   font-family: Montserrat Regular;
-  top: 85%;
+  top: 500px;
   width: 70%;
   left: 15%;
   padding: 20px;
@@ -73,7 +73,7 @@ body {
   padding: 20px;
   width: 30%;
   height: 300px;
-  top: 200px;
+  top: 100px;
   left: 68%;
   box-sizing: border-box;
   background-color: #E6D4C9;
@@ -85,7 +85,7 @@ body {
 .box2 {
   position: relative;
   padding: 20px;
-  top: 501px;
+  top: 401px;
   left: 35%;
   width: 30%;
   height: 300px;
@@ -98,7 +98,7 @@ body {
 
 .box3 {
   position: relative;
-  top: 800px;
+  top: 700px;
   left: 2%;
   padding: 20px;
   width: 30%;
@@ -125,7 +125,7 @@ body {
   color: #DFB79E;
   text-align: center;
   padding: 20px;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 @media screen and (max-width: 768px) {
   html {
@@ -167,7 +167,7 @@ body {
 
   .logo {
     width: 60%;
-    height: 400px;
+    height: 175px;
     position: absolute;
     top: 55px;
     left: 20%;
@@ -187,7 +187,7 @@ body {
   .container {
     position: absolute;
     font-family: Montserrat Regular;
-    top: 85%;
+    top: 40%;
     width: 70%;
     left: 15%;
     padding: 20px;
@@ -201,10 +201,10 @@ body {
   .box1 {
     position: relative;
     padding: 20px;
-    width: 30%;
+    width: 70%;
     height: 300px;
-    top: 200px;
-    left: 68%;
+    top: 71.5%;
+    left: 15%;
     box-sizing: border-box;
     background-color: #E6D4C9;
     color: #CF8562;
@@ -215,9 +215,9 @@ body {
   .box2 {
     position: relative;
     padding: 20px;
-    top: 501px;
-    left: 35%;
-    width: 30%;
+    top: 510px;
+    left: 15%;
+    width: 70%;
     height: 300px;
     box-sizing: border-box;
     background-color: #E6D4C9;
@@ -228,10 +228,10 @@ body {
 
   .box3 {
     position: relative;
-    top: 800px;
-    left: 2%;
+    top: 500px;
+    left: 25%;
     padding: 20px;
-    width: 30%;
+    width: 50%;
     height: 300px;
     box-sizing: border-box;
     background-color: #E6D4C9;
@@ -255,6 +255,6 @@ body {
     color: #DFB79E;
     text-align: center;
     padding: 20px;
-    margin-top: 20%;
+    margin-top: 120%;
   }
 }
