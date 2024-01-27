@@ -39,7 +39,7 @@ body {
   width: 60%;
   height: 400px;
   position: absolute;
-  top: 55px;
+  top: 63px;
   left: 20%;
   border-left: #DFB79E solid 5px;
   border-right: #DFB79E solid 5px;
@@ -48,11 +48,11 @@ body {
 
 @font-face {
     font-family: BlackMango-ExtraLight;
-    src: url(../fonts/BlackMango-ExtraLight.ttf)
+    src: url(../../fonts/BlackMango-ExtraLight.ttf)
   }
 @font-face {
   font-family: Montserrat Regular;
-  src: url(../fonts/Montserrat-Regular.ttf)
+  src: url(../../fonts/Montserrat-Regular.ttf)
 }
 .container {
   position: absolute;
