@@ -1,5 +1,9 @@
 html {
-  background-color: #F1E2D8;
+  background-image: linear-gradient(#f1e2d8,#CF8562);
+}
+
+body{
+  background-image: linear-gradient(#f1e2d8,#CF8562);
 }
 
 @font-face {
