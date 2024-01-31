@@ -40,7 +40,7 @@ body {
   width: 60%;
   height: 400px;
   position: absolute;
-  top: 55px;
+  top: 63px;
   left: 20%;
   border-left: #DFB79E solid 5px;
   border-right: #DFB79E solid 5px;
@@ -58,7 +58,7 @@ body {
 .container {
   position: absolute;
   font-family: Montserrat Regular;
-  top: 85%;
+  top: 57%;
   width: 70%;
   left: 15%;
   padding: 20px;
@@ -66,7 +66,7 @@ body {
   background-color: #E6D4C9;
   color: #CF8562;
   text-align: center;
-  border: #CF8562 solid 10px;
+  border: #CF8562 solid 5px;
 }
 
 .box1 {
@@ -74,19 +74,19 @@ body {
   padding: 20px;
   width: 30%;
   height: 300px;
-  top: 200px;
+  top: -30px;
   left: 68%;
   box-sizing: border-box;
   background-color: #E6D4C9;
   color: #CF8562;
   text-align: center;
-  border: #CF8562 solid 10px;
+  border: #CF8562 solid 5px;
 }
 
 .box2 {
   position: relative;
   padding: 20px;
-  top: 501px;
+  top: 271px;
   left: 35%;
   width: 30%;
   height: 300px;
@@ -94,12 +94,12 @@ body {
   background-color: #E6D4C9;
   color: #CF8562;
   text-align: center;
-  border: #CF8562 solid 10px;
+  border: #CF8562 solid 5px;
 }
 
 .box3 {
   position: relative;
-  top: 800px;
+  top: 570px;
   left: 2%;
   padding: 20px;
   width: 30%;
@@ -108,7 +108,7 @@ body {
   background-color: #E6D4C9;
   color: #CF8562;
   text-align: center;
-  border: #CF8562 solid 10px;
+  border: #CF8562 solid 5px;
   font-family: Montserrat Regular;
 }
 
@@ -122,11 +122,44 @@ body {
 }
 
 .footer {
-  background-color: #DFB79E;
-  color: #DFB79E;
+  font-family: Montserrat Regular;
+  background-color: #dfb79e;
+  color: #fff;
+  padding: 50px;
   text-align: center;
-  padding: 20px;
-  margin-top: 20%;
+  border: #CF8562 solid 5px;
+}
+
+.contact-info, .social-media {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.contact-info h3, .social-media h3 {
+  color: #fff;
+}
+
+.social-media ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media li {
+  margin-bottom: 8px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-media a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  margin-top: 20px;
 }
 @media screen and (max-width: 768px) {
   html {
