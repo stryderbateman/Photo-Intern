@@ -196,3 +196,11 @@ footer {
     color: white;
     transform: rotateY(180deg);
 }
+
+.mission:hover{
+    opacity: 100%;
+}
+
+.first:hover{
+    opacity: 100%;
+}

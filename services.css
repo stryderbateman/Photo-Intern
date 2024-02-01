@@ -140,3 +140,22 @@ footer {
     width: 100%;
     }
 }
+
+p {
+    /* font-family: monospace;
+    font-size: 3em;
+    animation: color-change 1s infinite; */
+    opacity: 50%;
+}
+
+p:hover{
+    opacity: 100%;
+}
+
+/* @keyframes color-change {
+    0% { color: white; }
+    25% { color: black; }
+    50% { color: white; }
+    75% {color: black;}
+    100% {color: white;}
+} */
