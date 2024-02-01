@@ -107,6 +107,15 @@ footer {
     border: #CF8562 solid 5px;
 }
 
+.line{
+    text-decoration: none;
+  }
+  
+  .topnav .n:hover {
+    background-color: #E6D4C9;
+    color: #DFB79E;
+  }
+
 .contact-info, .social-media {
     display: inline-block;
     margin: 0 20px;
