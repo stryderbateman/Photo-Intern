@@ -10,6 +10,10 @@ body{
   font-family: BlackMango-ExtraLight;
   src: url(./fonts/BlackMango-ExtraLight.ttf)
 }
+@font-face {
+  font-family: Montserrat Regular;
+  src: url(./fonts/Montserrat-Regular.ttf)
+}
 .line{
   text-decoration: none;
 }
@@ -39,6 +43,7 @@ body{
 
 
   .footer {
+    font-family: Montserrat Regular;
     background-color: #DFB79E;
     color: #DFB79E;
     text-align: center;
