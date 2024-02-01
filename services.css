@@ -10,6 +10,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.line{
+    text-decoration: none;
+  }
+
 .topnav {
     font-family: BlackMango-ExtraLight;
     background-color: #DFB79E;
@@ -26,15 +30,11 @@ body {
     font-size: 17px;
     left: 150px;
 }
-.topnav a:hover {
+
+.topnav .n:hover {
     background-color: #E6D4C9;
     color: #DFB79E;
-}
-
-.topnav a.active {
-    background-color: #DFB79E;
-    color: white;
-}
+  }
 
 .header {
     padding: 30px;
