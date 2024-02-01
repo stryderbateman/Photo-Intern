@@ -283,11 +283,13 @@ body {
     height: 250px;
   }
 
-  .footer {
-    background-color: #DFB79E;
-    color: #DFB79E;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20%;
+.footer {
+  opacity: 70%;
+  font-family: Montserrat Regular;
+  background-color: #dfb79e;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+  border: #CF8562 solid 5px;
   }
 }

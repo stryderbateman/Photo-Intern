@@ -76,13 +76,48 @@ body {
     clear: both;
 }
 
-.footer {
-    padding: 20px;
+footer {
+    opacity: 70%;
+    font-family: Montserrat Regular;
+    background-color: #dfb79e;
+    color: #fff;
+    padding: 50px;
     text-align: center;
-    background: #E6D4C9;
-    margin-top: 20px;
-    opacity: 85%;
+    border: #CF8562 solid 5px;
 }
+
+.contact-info, .social-media {
+    display: inline-block;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.contact-info h3, .social-media h3 {
+    color: #fff;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 8px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 800px) {
     .leftcolumn, .rightcolumn {   
     width: 100%;
