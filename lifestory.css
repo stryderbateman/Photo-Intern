@@ -10,6 +10,16 @@ body {
     background-repeat: no-repeat;
 }
 
+@font-face {
+    font-family: Montserrat Regular;
+    src: url(./fonts/Montserrat-Regular.ttf)
+  }
+
+  @font-face {
+    font-family: BlackMango-ExtraLight;
+    src: url(./fonts/BlackMango-ExtraLight.ttf)
+  }
+
 .first {
     font-family: BlackMango-ExtraLight;
     background-color: #cf8562;
@@ -115,6 +125,9 @@ footer {
     background-color: #E6D4C9;
     color: #DFB79E;
   }
+  
+
+
 
 .contact-info, .social-media {
     display: inline-block;

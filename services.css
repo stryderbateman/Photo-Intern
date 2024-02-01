@@ -9,6 +9,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+@font-face {
+    font-family: Montserrat Regular;
+    src: url(./fonts/Montserrat-Regular.ttf)
+  }
+  @font-face {
+    font-family: BlackMango-ExtraLight;
+    src: url(./fonts/BlackMango-ExtraLight.ttf)
+  }
 
 .line{
     text-decoration: none;
