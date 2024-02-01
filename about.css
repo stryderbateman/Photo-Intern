@@ -10,6 +10,9 @@ body{
   font-family: BlackMango-ExtraLight;
   src: url(./fonts/BlackMango-ExtraLight.ttf)
 }
+.line{
+  text-decoration: none;
+}
 
 .topnav {
   font-family: BlackMango-ExtraLight;
@@ -29,15 +32,11 @@ body{
   left: 150px;
 }
 
-.topnav a:hover {
-  background-color: #F1E2D8;
+.topnav .n:hover {
+  background-color: #E6D4C9;
   color: #DFB79E;
 }
 
-.topnav a.active {
-  background-color: #DFB79E;
-  color: white;
-}
 
   .footer {
     background-color: #DFB79E;

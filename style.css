@@ -26,14 +26,9 @@ body {
     left: 150px;
   }
   
-.topnav a:hover {
+.topnav .n:hover {
     background-color: #E6D4C9;
     color: #DFB79E;
-  }
-
-.topnav a.active {
-    background-color: #DFB79E;
-    color: white;
   }
 
 .logo {
@@ -45,6 +40,10 @@ body {
   border-left: #DFB79E solid 5px;
   border-right: #DFB79E solid 5px;
   border-bottom: #DFB79E solid 5px;
+}
+
+.line{
+  text-decoration: none;
 }
 
 @font-face {
