@@ -48,6 +48,10 @@ body {
     padding: 30px;
     text-align: center;
     background: #E6D4C9;
+    background:#CF8562;
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 .header h1 {
     font-size: 50px;
